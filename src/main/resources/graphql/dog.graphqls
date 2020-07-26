@@ -6,7 +6,7 @@ type Dog{
 }
 
 type Query{
-    findDogBreedById(id:ID!): String!
+    findDogById(id:ID!): Dog!
     findAllDogs: [Dog]!
 }
 
